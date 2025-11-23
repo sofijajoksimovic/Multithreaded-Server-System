@@ -67,11 +67,11 @@ The server uses a **combined priority** (credential + operation) to schedule req
 ---
 ### 4.**Client**
 Clients can update operation priorities using:
-**CREDENTIAL#SET_PRIORITY#OP1:a#OP2:b#...#OPX:x**.
-Regular requests follow the format:
-**CREDENTIAL#OPERATION#PARAMS**.
+- **CREDENTIAL#SET_PRIORITY#OP1:a#OP2:b#...#OPX:x**  
+Regular requests follow the format:  
+- **CREDENTIAL#OPERATION#PARAMS**.
 Example:
-- admin#GET#users.
+- admin#GET#users  
 The client receives and displays the server's response.
 ---
 ### 5. **Operation Priority Management**
