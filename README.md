@@ -130,19 +130,32 @@ Requests can be sent:
 - Connection pool pattern
 
 ## Architecture Overview
+Client Request
 
-- Client Request
 ↓
-- TCP Socket
+
+TCP Socket
+
 ↓
-- Server Listener Thread
+
+Server Listener Thread
+
 ↓
-- Thread Pool Priority Queue
+
+Thread Pool Priority Queue
+
 ↓
-- Worker Thread
+
+Worker Thread
+
 ↓
-- Connection Pool
+
+Connection Pool
+
 ↓
-- MySQL Database
+
+MySQL Database
+
 ↓
-- Response to Client
+
+Response to Client
