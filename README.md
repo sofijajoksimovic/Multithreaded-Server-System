@@ -117,3 +117,32 @@ Requests can be sent:
   - thread pool efficiency
   - connection pool behavior
   - overall server performance
+  - 
+
+## Technologies
+
+- Java
+- Multithreading
+- TCP/IP sockets
+- MySQL
+- Priority queue scheduling
+- Thread pool pattern
+- Connection pool pattern
+
+## Architecture Overview
+
+Client Request
+↓
+TCP Socket
+↓
+Server Listener Thread
+↓
+Thread Pool Priority Queue
+↓
+Worker Thread
+↓
+Connection Pool
+↓
+MySQL Database
+↓
+Response to Client
